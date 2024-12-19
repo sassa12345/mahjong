@@ -1,0 +1,638 @@
+﻿<!DOCTYPE html>
+<html lang="ja"><!-- InstanceBegin template="/Templates/pc_gamepage_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<!-- InstanceBeginEditable name="gamepage_headtitle" -->	
+<title>無料で遊べる麻雀ゲーム - 麻雀スタジアム</title>
+<!-- InstanceEndEditable -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=1110">
+<!--<meta name="viewport" content="width=1370, maximum-scale=2.0, user-scalable=yes">-->
+<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<!-- InstanceBeginEditable name="gamepage_description" -->
+<meta name="description" content="麻雀の無料ゲームをプレイすることができます。多種多様なルールに対応！　個性的なAIを相手に、ひとりで気楽にプレイすることができます。オンライン対戦機能もあるので、世界中のプレイヤーと麻雀を楽しむこともできます。">
+<!-- InstanceEndEditable -->
+
+<meta name="keywords" content="麻雀スタジアム,無料,フリー,ゲーム">
+<!--OGP-->
+<meta property="og:title" content="麻雀スタジアムの無料ゲーム - トランプスタジアム -">
+<meta property="og:type" content="game">
+<meta property="og:url" content="https://playingcards.jp/others/mahjong/">
+<meta property="og:image" content="https://playingcards.jp/common/image/ogp/games/OGP_mahjong.png">
+<meta property="og:site_name" content="トランプスタジアム">
+<meta property="og:description" content="麻雀スタジアムの無料ゲームをプレイすることができます。登録不要なので、誰でも気軽にプレイすることができます。また、成績記録機能も付いています。">
+<meta property="fb:app_id" content="418009554894913">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@playingcards_jp">
+<!-- InstanceBeginEditable name="gamepage_game_jquery" -->	
+<!--jQueryUI-->
+<link rel="stylesheet" href="../../ajax/libs/jqueryui/1.12.0/themes/cupertino/jquery-ui.css">
+<!-- InstanceEndEditable -->
+<!--ページレイアウト-->
+<link rel="stylesheet" href="../../common/common.css?20191128" type="text/css">
+<link rel="stylesheet" href="../../common/layout.css?20191128" type="text/css">
+<link rel="stylesheet" href="../../common/css/web/game_page.css" type="text/css">
+<!-- ▼モーダルウィンドウ用CSS-->
+<link rel="stylesheet" href="../../common/script/colorbox/design5/colorbox.css">
+<!-- InstanceBeginEditable name="gamepage_game_stylesheet" -->
+<!--ゲーム用スタイルシート-->
+<link rel="stylesheet" href="desktop.css">
+<!-- InstanceEndEditable -->
+<link rel="icon" href="../../favicon.png" type="image/png">
+<!--jQuery読み込み-->
+<script src="../../ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="../../ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<!--外部Javascriptファイル格納ファイルの読み込み-->
+<script src="../../common/js/common.js"></script>
+<!--モーダルウィンドウ用js-->
+<script src="../../common/script/colorbox/jquery.colorbox-min.js"></script>
+<script src="../../common/script/colorbox/jquery.colorbox-ja.min.js"></script>
+<!--▼モーダルウィンドウの適用対象の指定とオプションの記述-->
+<script src="../../common/script/colorbox/colorbox.min.js"></script>
+<!-- InstanceBeginEditable name="gamepage_game_script" -->
+	
+<!-- ゲーム用js -->
+<script src="../../ajax/libs/phaser-ce/2.10.0/phaser.min.js"></script>
+<script src="../../ajax/libs/linq.js/2.2.0.2/linq.min.js"></script>
+<script src="../../playingcards-jp/js/PlayFabClientApi.js"></script>
+<script src="../../playingcards-jp/js/Photon-Javascript_SDK_min.js"></script>
+<script src="../../common/js/settings.js?ver=3"></script>
+<script async="" data-ad-client="ca-pub-5577355858924524" src="../../pagead/js/f.txt">
+</script>
+<script>window.adsbygoogle = window.adsbygoogle || [];
+	const adBreak =  adConfig = function(o) {adsbygoogle.push(o);}
+</script>
+<script src="../../playingcards-jp/masunakalib/4.2.1/masunaka_min.js"></script>
+<script src="../../playingcards-jp/game/mahjong/1.3.1/game.js?ver=1" id="gamescript" data-target="desktop"></script>
+	
+<!-- InstanceEndEditable -->
+<!--JavaScript-->
+<!--inlineScript*******************************************************************-->
+<!--Google Analytics-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="../../gtag/js?id=G-B9WKS6CS4D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B9WKS6CS4D');
+</script>
+<!--Google Analytics-->
+<!-- 広告ブロックによる損失収益の回復 -->
+<script async="" src="../../i/pub-5577355858924524?ers=1" nonce="Q4Vjg8HdKZ_fyLjMGzohqA"></script><script nonce="Q4Vjg8HdKZ_fyLjMGzohqA">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<!-- /広告ブロックによる損失収益の回復 -->
+<!--New mark conrol-->
+<script>
+		function newmark(y, m, d, c) {
+		  delday = 5; // この日数表示されます
+		  oldday = new Date(y + "/" + m + "/" +d);
+		  newday = new Date();
+		  d =(newday - oldday) / (1000 * 24 * 3600);
+
+		  if(d <= delday) {
+			if(c == "new") document.write("<img src='https://playingcards.jp/image/header/new025_01.gif' style='width:34px; height:11px; vertical-align:baseline !important;'>"); // Newマーク
+		  }
+		}
+		//-->
+	</script>
+<!--New mark conrol-->
+<!--inlineScript*******************************************************************-->
+<!-- InstanceParam name="category" type="text" value="others" -->
+<!-- InstanceParam name="id" type="text" value="mahjong" -->
+<!-- InstanceParam name="name" type="text" value="麻雀スタジアム" -->
+<!-- InstanceParam name="online" type="boolean" value="true" -->
+<!-- InstanceParam name="flash" type="boolean" value="false" -->
+<!-- InstanceParam name="tablet" type="boolean" value="false" -->
+<!-- InstanceParam name="group" type="text" value="others" -->
+<!-- InstanceParam name="onlineinfo" type="text" value="onlineinfo_mahjong_modal" -->
+<!-- InstanceParam name="default_description" type="boolean" value="false" -->
+</head>
+
+<body id="#body" class="game_size">
+
+<!-- フェイスブック SNSボタン用 -->
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.async=true;
+			js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=418009554894913";
+			fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+	</script>
+<!-- フェイスブック SNSボタン用 　ここまで-->
+
+<div id="wrapper" style="background: #e0e0db;">
+	<!--ページ内の指定ここから-->
+	
+		<!--▼▼ここからグローバルメニュー（ミニ）の指定▼▼-->
+		<div id="min_mainmenu4_wrap">
+			<div id="mm4_body">
+				<ul>
+					<li>
+						<span class="yellow_triangle">&#9654;</span><a href="/">トップページ</a>
+					</li>
+					<li>
+						<span class="yellow_triangle">&#9654;</span><a href="/support/request.html">ご意見・ご要望</a>
+					</li>
+					<li>
+						<span class="yellow_triangle">&#9654;</span><a href="/support/bugreport.html">不具合の報告</a>
+					</li>
+					<li>
+						<span class="yellow_triangle">&#9654;</span><a href="/gamelist/gamelist_index.html">収録ゲーム一覧</a>
+					</li>
+					<li>
+						<span class="yellow_triangle">&#9654;</span><a href="/pages/news.html">新着情報</a>&ensp;
+							<script>newmark(2023,7,19,"new")</script><!--（ここの日付は、削除したい日付ではなく、更新した日付です）-->
+					</li>
+					<li>
+						<a href="/"><img src="../../image/games/title_logo_new_minimum.png" width="120" height="30" alt="トランプスタジアム"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--▲▲グローバルメニュー（ミニ）の指定ここまで▲▲-->
+		
+		<!--メインコンテンツの指定ここから-->
+		<div id="contents_wrap_gamepage">			
+			
+			<!--ゲームコンテンツ表示エリア　ここから-->
+			<div id="main_contents_area">
+				<!--コンテンツ左側の指定　ここから-->
+				<div id="contents_area_left_for_game">
+					<!-- InstanceBeginEditable name="game_content" -->
+					<div id="game_contents_cell">
+						<!-- ゲームコンテンツ -->
+						<div id="content"></div>
+						<!-- ゲームコンテンツ -->
+					</div>
+					<!-- InstanceEndEditable -->
+					<!--ゲーム難解度など掲載部　ここから-->					
+					<div id="game_status_cell">
+						<div id="tb_innnerright_title">
+							<img src="../../image/games/cap_gamedata.png" width="122" height="26" alt="ゲームデータ">
+						</div>
+
+						<div id="tb_innnerright_data"><img src="../../image/games/sts_mahjong.png" alt="麻雀スタジアムのゲームステータス"></div>
+									
+						<!-- InstanceBeginEditable name="gamepage_game_c_menu" -->											
+						
+						
+						<!-- InstanceEndEditable -->										
+
+						<div id="tb_innnerright_ru-ru">
+							<div class="tb_innnerright_ru-ru_button">
+                <a class="mordalwindow" href="/game_rules/modal/mahjong_rules_modal.html" title="（ルールウィンドウの外をクリックするとゲーム画面にもどります）">ルールと遊び方</a>
+              </div>
+						</div>
+
+						<div id="tb_innnerright_othergame">
+							<div class="tb_innnerright_othergame_button">
+								<a href="/gamelist/gamelist_index.html">別のゲームを遊ぶ</a>
+							</div>
+						</div>
+
+						<div id="tb_innnerright_store">
+							<div class="tb_innnerright_store_button">
+								<a href="/store/">トランプストア</a>
+							</div>
+						</div>
+            
+            <div id="tb_innnerright_onlineinfo">
+                <div class="tb_innnerright_onlineinfo_button">
+                  <a class="mordalwindow" href="/game_rules/modal/onlineinfo_mahjong_modal.html" title="（ウィンドウの外をクリックするとゲーム画面にもどります）">
+                    <span>オンライン対戦説明書</span>
+                  </a>
+                </div>
+            </div>
+            
+						
+            
+          </div>					
+					<!--ゲーム難解度など掲載部　ここまで-->
+					
+				</div>
+				<!--コンテンツ左側の指定　ここまで-->
+				
+				<!--コンテンツ右側の指定　ここから-->
+				<!--広告スペース-->
+				<div id="contents_area_right_for_game">
+					
+					<script async="" src="../../pagead/js/f.txt"></script>
+          <!-- game_right_ad_20191128 -->
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5577355858924524" data-ad-slot="5513533988" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+					
+				</div>
+				<!--広告スペース-->
+				<!--コンテンツ右側の指定　ここまで-->			
+			
+			</div>
+			<!--ゲームコンテンツ表示エリア　ここまで-->
+			
+			<!--ソーシャルボタン表示エリア　ここから-->
+			<div id="snsbutton_contents_area">
+				<!-- ソーシャルボタン -->
+				<!-- twitter -->
+				<div id="twitterbutton_games"><a href="https://twitter.com/share?url=https://playingcards.jp/others/mahjong/&text=【麻雀スタジアム】登録なし！無料でゲームが遊べる「トランプスタジアム」！！&hashtags=トランプスタジアム,麻雀スタジアム" target="_blank" class="twitter-share-button" data-count="horizontal" data-size="medium" data-lang="ja" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">ツイッター</a> 
+				  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>	    	
+
+				<!-- Facebook Like -->
+				<div id="likebutton_games">
+          <a class="fb-like" data-href="https://playingcards.jp/others/mahjong/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">Facebook</a> 
+        </div>
+
+				<!-- はてブ -->
+				<div id="hatebubutton_games"> 
+          <a href="http://b.hatena.ne.jp/entry/https://playingcards.jp/others/mahjong/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="トランプスタジアム「麻雀スタジアム」をはてなブックマークに追加">
+            <img src="../../images/entry-button/button-only%402x.png" alt="トランプスタジアム「麻雀スタジアム」をはてなブックマークに追加" width="130" height="20" style="border: none;">
+          </a>
+					<script src="../../js/bookmark_button.js" async="async"></script>
+				</div>
+
+				<!-- ソーシャルボタン ここまで -->
+			</div>
+			<br style="clear: both;">
+			<!--ソーシャルボタン表示エリアの指定　ここまで-->
+			
+			<!--ぱんくずの指定　ここから-->
+			<div id="breadcrumbs"> <a href="/">トップ</a>&emsp;＞&emsp;<a href="/gamelist/others_index.html">その他のゲーム</a>&emsp;＞&emsp;麻雀スタジアム </div>
+      <br style="clear: both;">
+			<!--ぱんくずの指定　ここまで-->
+			
+			<!--下層ページコンテンツエリア　ここから****************************************************************************-->
+			<div id="under_contents_area">
+				
+				
+				
+				<!--ここから　下層左側****************************************************************************-->
+				<div id="undercontents_inner_left_area">
+
+					<!--ゲームタイトルの指定　ここから-->
+					<!-- InstanceBeginEditable name="gamepage_game_title_block" -->			
+					<div id="gametitlebar">
+						<span class="titlebar_ico">
+							<img src="../../image/games/title_mahjongicon.png" width="30" height="30" alt="">
+						</span>
+
+						<h1 class="gametitle_cap">
+						麻雀スタジアム
+						</h1>
+					</div>
+					<!-- InstanceEndEditable -->
+					<!--ゲームタイトルの指定　ここまで-->
+
+					<!--ゲームの内容説明　ここから-->
+					<div id="gamepage_gameinfo">
+						<div id="gamepage_gameinfo_catch">
+							<img src="../../image/games/cap_gameinfo.png" width="95" height="20" alt="ゲームの紹介">
+						</div>
+						<p class="gamepage_gameinfo">
+						<!-- InstanceBeginEditable name="gamepage_gameinfo" -->					
+						136枚の牌を使って役を完成させるゲームです。4人で対戦して得点を競います。<br>中国起源のゲームですが、現在は世界中で楽しまれています。
+						<!-- InstanceEndEditable -->						
+						</p>
+					</div>
+					<!--ゲームの内容説明　ここまで-->
+
+					<!--▼▼ここから下部おすすめゲームのインクルード指定▼▼*************************************-->
+					<div id="moregamermd_wrap_for_gamepage">
+						<div id="moregamermd_title_for_gamepage">			
+							<img src="../../image/games/ttl_game_pickup_780.png" width="780" height="45" alt="このゲームを遊んだ方はこちらのゲームも遊んでいます">
+						</div>
+
+						<div id="moregamermd_pickup_area_for_gamepage">
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<a href="/solitaire/freecell/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_freecell_new_180.png" width="180" height="126" alt="フリーセルの無料ゲームをプレイ">
+											<figcaption class="top_recomend">
+												空枠（フリーセル）の使い方が鍵<br>
+												フリーセルを使い、最後に4種のマーク別にAからKまでカードを揃えていきます。<br>
+											</figcaption>
+									</figure>
+								</a>
+
+								<a href="/solitaire/freecell/">
+									<div class="game_thumnail_box_child_title">フリーセル</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_freecell.png" width="173" height="39" alt="フリーセルのゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<a href="/solitaire/klondike/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_clonedike_new_180.png" width="180" height="126" alt="ソリティア（クロンダイク）の無料ゲームをプレイ">
+											<figcaption class="top_recomend">
+												世界的にも人気の高いゲームで「ソリティア（クロンダイク）」のほかに「クロンダイク」の名でも親しまれています。<br>
+											</figcaption>
+									</figure>
+								</a>
+
+								<a href="/solitaire/klondike/">
+									<div class="game_thumnail_box_child_title" style="font-size: 0.80em; top: 11px; left: 4px;">ソリティア（クロンダイク）</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg" style="top: 8px;">
+									<img src="../../image/games/stsm_clonedike.png" width="173" height="39" alt="ソリティア（クロンダイク）のゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<a href="/solitaire/spider/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_spider_new_180.png" width="180" height="126" alt="スパイダーソリティアの無料ゲームをプレイ">
+											<figcaption class="top_recomend">
+												重なり下がるカードは蜘蛛の糸。。。<br>
+												最終的に同じマークでAからKまでを揃えよう。<br>
+											</figcaption>
+									</figure>
+								</a>
+
+								<a href="/solitaire/spider/">
+									<div class="game_thumnail_box_child_title">スパイダーソリティア</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_spider.png" width="173" height="39" alt="スパイダーソリティアのゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<!--オンラインバッジ-->
+								<div class="online_badge_mini_thumnail_list">
+									<img src="../../image/games/online/online_badge_mini.png" width="45" height="105" alt="オンライン対戦可能">
+								</div>
+								<!--オンラインバッジ-->
+
+								<a href="/game/daifugo/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_daifugou_new_180.png" width="180" height="126" alt="大富豪（大貧民）の無料ゲームをプレイ">
+											<figcaption class="top_recomend">
+												盛者必衰<br>
+												場に出されたカードよりも強いカードを出して、特典多数の1番上がりを目指そう！<br>
+											</figcaption>
+									</figure>
+								</a>
+
+								<a href="/game/daifugo/">
+									<div class="game_thumnail_box_child_title">大富豪（大貧民）</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_daifugou.png" width="173" height="39" alt="大富豪（大貧民）のゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<!--オンラインバッジ-->
+								<div class="online_badge_mini_thumnail_list">
+									<img src="../../image/games/online/online_badge_mini.png" width="45" height="105" alt="オンライン対戦可能">
+								</div>
+								<!--オンラインバッジ-->
+
+								<a href="index.htm" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_mahjong_new_180.png" width="180" height="126" alt="麻雀スタジアムの無料ゲームをプレイ">
+											<figcaption class="top_recomend">
+												「東風戦」「半荘戦」が選べる4人打ち麻雀！<br>
+												オンライン対戦にも対応。<br>各種ルールの変更もできます&#9834;<br>
+											</figcaption>
+									</figure>
+								</a>
+
+								<a href="index.htm">
+									<div class="game_thumnail_box_child_title">麻雀スタジアム</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_mahjong.png" width="173" height="39" alt="麻雀スタジアムのゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<a href="/solitaire/pyramid/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_pyramid_new_180.png" width="180" height="126" alt="ピラミッドの無料ゲームをプレイ">
+											<figcaption class="top_recomend">
+												Jokerを使って連鎖の快感を<br>
+												山札から出た数字から前後の数字を判断して消してゆくゲーム。<br>
+											</figcaption>
+									</figure>
+								</a>
+
+								<a href="/solitaire/pyramid/">
+									<div class="game_thumnail_box_child_title">ピラミッド</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_pyramid.png" width="173" height="39" alt="ピラミッドのゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<!--オンラインバッジ-->
+								<div class="online_badge_mini_thumnail_list">
+									<img src="../../image/games/online/online_badge_mini.png" width="45" height="105" alt="オンライン対戦可能">
+								</div>
+								<!--オンラインバッジ-->
+
+								<a href="/others/koikoi/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_koikoi_new_180.png" width="180" height="126" alt="こいこいの無料ゲームをプレイ">
+										<figcaption class="top_recomend">
+											役の成立とその点数を競う<br>ゲーム。<br>役成立後もゲーム継続の選択があるのが特徴。<br>
+										</figcaption>
+									</figure>
+								</a>
+
+								<a href="/others/koikoi/">
+									<div class="game_thumnail_box_child_title">こいこい</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_koikoi.png" width="173" height="39" alt="こいこいのゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+
+							<!--ここからコンテンツブロック-->
+							<div class="game_thumnail_box_child_for_gamepage">
+
+								<a href="/others/numberplace/" class="thumnail">
+									<figure>
+										<img src="../../image/games/game_pict/pict_nanpre_new_180.png" width="180" height="126" alt="ナンプレの無料ゲームをプレイ">
+										<figcaption class="top_recomend">
+											空枠を正しく全て埋める数字を使ったパズルゲーム。<br>難易度別ステージあります。<br>
+										</figcaption>
+									</figure>
+								</a>
+
+								<a href="/others/numberplace/">
+									<div class="game_thumnail_box_child_title">ナンプレ</div>
+								</a>
+								<div class="game_thumnail_box_child_stgimg">
+									<img src="../../image/games/stsm_nanpre.png" width="173" height="39" alt="ナンプレのゲームステータス">
+								</div>
+							</div>
+							<!--コンテンツブロックここまで-->
+							
+							<br style="clear: both; overflow: hidden;">
+						</div>
+						<!--エリア指定　ここまで-->
+
+					</div>
+					<!--▲▲ここまで下部おすすめゲームのインクルード指定▲▲-->
+          
+				</div>
+        <br style="clear: both; overflow: hidden;">
+				<!--下層左側　ここまで-->
+				
+			</div>
+			<!--下層ページコンテンツエリア　ここまで****************************************************************************-->			
+			
+			<p id="pagetop"><a href="#body"><img src="../../common/image/reverse_arrow.png" width="57" height="57" alt="ページトップボタン"></a></p>
+			
+			<!--ページ内の指定ここまで-->
+		</div>
+		<!--メインコンテンツの指定ここまで-->
+	
+	<!--▼▼ここからフッターサイトマップの指定▼▼-->
+	<div id="footer_sitemap_wrap">
+		<div id="footer_sitemap_area">
+				
+			<table>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/gamelist/gamelist_index.html">トランプスタジアムゲーム一覧</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td>&emsp;</td>
+					<td>
+						<ul>
+							<li><a href="/gamelist/hitori_index.html">&gt;&emsp;ひとりでも楽しめるトランプゲーム</a></li>
+							<li><a href="/gamelist/futari_index.html">&gt;&emsp;ふたりで楽しめるトランプゲーム</a></li>
+							<li><a href="/gamelist/kazoku_index.html">&gt;&emsp;みんなで楽しめるトランプゲーム</a></li>
+							<li><a href="/gamelist/casino_index.html">&gt;&emsp;カジノトランプゲーム</a></li>
+							<li><a href="/gamelist/others_index.html">&gt;&emsp;その他のゲーム</a></li>
+								
+							<li style="margin: 2.0em 0em 2.0em 0em;"><a href="/gamelist/onlinegames_index.html">&gt;&emsp;「オンライン対戦」トランプゲーム</a></li>
+
+							<li><a href="/gamelist/word_index.html">&gt;&emsp;トランプゲームの名称別&ensp;一覧</a></li>
+							<li><a href="/gamelist/level_index.html">&gt;&emsp;トランプゲームの難解度別&ensp;一覧</a></li>
+							<li><a href="/gamelist/genre_index.html">&gt;&emsp;トランプゲームのゲーム性別&ensp;一覧</a></li>
+							<li><a href="/gamelist/tablet_index.html">&gt;&emsp;タブレット対応ゲーム&ensp;一覧</a></li>
+							<!--<li><a href="/gamelist/flash_index.html">&gt;&emsp;FLASH版ゲーム&ensp;一覧</a></li>-->
+						</ul>
+					</td>
+				</tr>
+			</table>
+				
+			<table>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/gamelist/gamerule_index.html">ルールや遊び方と豆知識</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td>&emsp;</td>
+					<td>
+						<ul>
+							<li><a href="/gamelist/gamerule_index.html#hitori">&gt;&emsp;ひとりでも楽しめるトランプゲーム</a></li>
+							<li><a href="/gamelist/gamerule_index.html#futari">&gt;&emsp;ふたりで楽しめるトランプゲーム</a></li>
+							<li><a href="/gamelist/gamerule_index.html#kazoku">&gt;&emsp;みんなで楽しめるトランプゲーム</a></li>
+							<li><a href="/gamelist/gamerule_index.html#casino">&gt;&emsp;カジノトランプゲーム</a></li>
+							<li style="margin-bottom: 2.0em;"><a href="/gamelist/gamerule_index.html#others">&gt;&emsp;その他のゲーム</a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/pages/news.html">新着情報</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr style="margin-bottom: 2.0em;"></td></tr>
+					
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+					<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/store/">トランプストア</a></td></tr>
+					<tr><td class="whiteline" colspan="2"><hr style="margin-bottom: 2.0em;"></td></tr>
+					
+			</table>
+				
+			<table>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/support/request.html">ご意見・ご要望</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr style="margin-bottom: 1.45em;"></td></tr>
+					
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/support/bugreport.html">不具合報告</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr style="margin-bottom: 1.45em;"></td></tr>
+					
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/support/faq.html">よくあるご質問</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr style="margin-bottom: 1.45em;"></td></tr>
+										
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/pages/sitemap.html">サイトマップ</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr style="margin-bottom: 1.45em;"></td></tr>
+					
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/pages/link.html">リンク</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+			</table>
+				
+			<table>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td class="whitetriangle" colspan="1">▶</td><td class="sitemap_cap1"><a href="/pages/policy.html">トランプスタジアムについて</a></td></tr>
+				<tr><td class="whiteline" colspan="2"><hr></td></tr>
+				<tr><td>&emsp;</td>
+					<td>
+						<ul>
+							<li><a href="/pages/policy.html#free">&gt;&emsp;いつでも無料で簡単に遊べる</a></li>
+							<li><a href="/pages/policy.html#trivia">&gt;&emsp;ルールや遊び方、豆知識</a></li>
+							<li><a href="/pages/policy.html#about_contents">&gt;&emsp;コンテンツについて</a></li>
+							<li><a href="/pages/policy.html#privacy_policy">&gt;&emsp;プライバシーポリシー</a></li>
+							<li><a href="/pages/policy.html#ad_policy">&gt;&emsp;広告配信について</a></li>
+							<li style="margin-bottom: 7.5em;"><a href="/pages/policy.html#about_link">&gt;&emsp;リンクについて</a></li>						
+
+							<!--<li style="text-indent: 8.0em;"><a href="http://playingcardstadium.com/">English</a>&ensp;&frasl;&ensp;<a href="http://es.playingcardstadium.com/">espa&#241;ol</a>&ensp;&frasl;&ensp;<a href="http://zh.playingcardstadium.com/">中文</a></li>-->
+						</ul>
+					</td>
+				</tr>
+			</table>
+				
+		</div>
+	</div>
+	<!--▲▲フッターサイトマップの指定ここまで▲▲-->
+	
+	<!--▼▼ここからfooterの指定▼▼-->
+  	<div id="footer_bottom_wrap">
+		<div id="footer_bottom_area">Copyright&ensp;&copy;&ensp;MasunakaSoft&cedil;&ensp;All&ensp;rights&ensp;reserved&#46;</div>
+	</div>
+	<!--▲▲footerの指定ここまで▲▲-->
+	
+</div>
+<!--wrapper end-->
+	
+<!-- InstanceBeginEditable name="gamepage_/body_script" -->
+
+	
+<!-- InstanceEndEditable -->	
+	
+</body>
+<!-- InstanceEnd --></html>

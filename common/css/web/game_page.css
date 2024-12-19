@@ -1,0 +1,610 @@
+@charset "utf-8";
+
+/*==============　個別ゲーム画面レイアウト　ここから=====================================================================================================================================================================================================*/
+
+
+/*-----------グローバルメニュー（ミニ）for ゲームページ用------------*/
+#min_mainmenu4_wrap{
+	width: auto;
+	height: auto;
+	background-image: -webkit-linear-gradient(90deg, #443220 0%, #8e775e 100%);
+	background-image: -moz-linear-gradient(90deg, #443220 0%, #8e775e 100%);
+	background-image: -o-linear-gradient(90deg, #443220 0%, #8e775e 100%);
+	background-image: linear-gradient(0deg, #443220 0%, #8e775e 100%);
+	color:#fff;
+	/*padding-top: 5px;*/
+	padding: 5px 15px 0px;
+	margin-bottom: 5px;
+}
+
+@media all and (-ms-high-contrast: none){
+	#mm4_body{
+	width: 1110px;
+	height: 25px !important;
+	margin: 0 auto;
+	font-size: 1.0em;
+	}
+	
+	/*#mm4_body ul{
+		margin-top: -5px;
+	}*/
+}
+
+#mm4_body{
+	width: 1110px;
+	height: 25px;
+	margin: 0 auto;
+	font-size: 1.0em;
+}
+	
+#mm4_body li{
+	width: auto;
+	margin-right: 40px;
+	display: inline-block;
+    list-style: none;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+	/*top: -12px;*/
+	top: 2px;
+	position: relative;
+	
+}
+
+
+
+#mm4_body li:nth-child(5){
+	width: auto;
+	/*margin-right: 125px;*//*180 135*/
+	display: inline-block;
+    list-style: none;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+
+#mm4_body li:last-child{
+	width: auto;
+	/*display: inline-block;*/
+    list-style: none;
+	top: -6px;
+	position: relative;
+	float: right;
+    clear: right;
+    margin-right: 25px;/*10px*/
+}
+
+#mm4_body li a{	display: inline-block; text-decoration: none; }
+
+#mm4_body li a:link { color: #FFFFFF; }
+#mm4_body li a:visited { color: #FFFFFF; }
+#mm4_body li a:hover { color: #557bf7; }
+#mm4_body li a:active { color: #557bf7; }
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用パン屑の指定　-- */
+/*-------------------------------------------------------------------------------*/
+
+#breadcrumbs{
+	width: 100%;
+    color: #557bf7;
+    /*margin-top: 10px;*/
+    font-size: 0.9em;
+	height: auto;
+    /*margin-bottom: 5px;*/
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+	float: left;
+    clear: right;
+}
+
+#breadcrumbs a{
+	text-decoration: none;
+}
+
+#breadcrumbs a:link { color: #557bf7; }
+#breadcrumbs a:visited { color: #557bf7; }
+#breadcrumbs a:hover { color: #557bf7; }
+#breadcrumbs a:active { color: #557bf7; }
+
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用ゲームタイトルバーの指定=====================================================================================================================　-- */
+/*-------------------------------------------------------------------------------*/
+
+#gametitlebar {
+	border-width: 1px;
+	border-color: rgb(18, 59, 7);
+	border-style: solid;
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,255,0) 0%, rgb(219,254,219) 91%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(0,255,0) 0%, rgb(219,254,219) 91%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,255,0) 0%, rgb(219,254,219) 91%);
+	width: 800px;
+	height: 35px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#gametitlebar_store {
+	border-width: 1px;
+	border-color: rgb(18, 59, 7);
+	border-style: solid;
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( 90deg, rgb(145,69,37) 0%, rgb(249,212,127) 91%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(145,69,37) 0%, rgb(249,212,127) 91%);
+	background-image: -ms-linear-gradient( 90deg, rgb(145,69,37) 0%, rgb(249,212,127) 91%);
+	width: 1110px;
+	height: 35px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+span.titlebar_ico{
+	width: auto;
+	height: auto;
+	top: 3px;
+	margin-left: 15px;
+	margin-right: 20px;
+	position: relative;
+}
+
+h1.gametitle_cap{
+	display: inline;
+	color: #123b07;
+    text-shadow: /*3px 0px 0px #ffffff, 0px 3px 0px #ffffff, -3px 0px 0px #ffffff, 0px -3px 0px #ffffff;*/
+		#ffffff 2px 0px 0px, #ffffff -2px 0px 0px,
+		#ffffff 0px -2px 0px, #ffffff 0px 2px 0px,
+		#ffffff 2px 2px 0px, #ffffff -2px 2px 0px,
+		#ffffff 2px -2px 0px, #ffffff -2px -2px 0px,
+		#ffffff 1px 2px 0px, #ffffff -1px 2px 0px,
+		#ffffff 1px -2px 0px, #ffffff -1px -2px 0px,
+		#ffffff 2px 1px 0px, #ffffff -2px 1px 0px,
+		#ffffff 2px -1px 0px, #ffffff -2px -1px 0px,
+		#ffffff 1px 1px 0px, #ffffff -1px 1px 0px,
+		#ffffff 1px -1px 0px, #ffffff -1px -1px 0px;
+    position: relative;
+    top: 4px;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ　ゲームコンテンツ表示エリアの指定　-- */
+/*-------------------------------------------------------------------------------*/
+#contents_wrap_gamepage{
+	width: 1250px;/*1110px*/
+    height: 100%;
+    margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+#main_contents_area{
+	width: 100%;/*100%*//*1110px*/
+    height: 600px;
+	position: relative;
+}
+
+#contents_area_left_for_game{
+	width: 930px;
+    height: 600px;
+    margin-left: 0px;
+    background-image: url(../../../common/image/gcbg.png);
+	position: relative;
+	float: left;
+	clear: right;
+}
+/*ゲーム本体プログラムを表示する領域の指定*/
+#game_contents_cell{
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 600px;
+	position: absolute;
+}
+
+/*ゲームステータスを表示する領域の指定*/
+#game_status_cell{
+	top: 0px;
+	margin-left: 805px;
+	width: 125px;
+	height: 600px;
+	position: absolute;
+}
+
+/*以下、ゲームステータスエリア内の各要素の指定--------------*/
+#tb_innnerright_title{
+	width: 122px;
+    height: 26px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+#tb_innnerright_contentsmenu{
+	width: 120px;
+    height: 32px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+#tb_innnerright_data{
+	width: 122px;
+    height: auto;/*237px*/
+	margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#tb_innnerright_ru-ru{
+	width: 105px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.tb_innnerright_ru-ru_button a{ 
+	width: 105px;/*106*/
+    height: 65px;/*63*/
+	background: url("../../../image/games/btn_ru-ru_asobikata2.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.tb_innnerright_ru-ru_button a:hover{
+	background-position: 0 -65px;
+}
+
+#tb_innnerright_othergame{
+	width: 106px;
+	height: 63px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+.tb_innnerright_othergame_button a{ 
+	width: 105px;
+    height: 65px;
+    background: url("../../../image/games/btn_hokanogame2.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.tb_innnerright_othergame_button a:hover{
+	background-position: 0 -65px;
+}
+
+#tb_innnerright_store{
+	width: 106px;
+	height: 63px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.tb_innnerright_store_button a{ 
+	width: 105px;
+    height: 65px;
+    background: url("../../../image/store/btn_store_m2.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.tb_innnerright_store_button a:hover{
+	background-position: 0 -65px;
+}
+
+#tb_innnerright_onlineinfo{
+	width: 105px;
+	height: 65px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.tb_innnerright_onlineinfo_button a{ 
+	width: 105px;
+    height: 65px;
+    background: url("../../../image/games/btn_onlineinfo2.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+	float: left;
+}
+
+.tb_innnerright_onlineinfo_button a:hover{
+	background-position: 0 -65px;
+}
+
+#tb_innnerright_flash{
+	width: 120px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.tb_innnerright_flash_button a{ 
+	width: 120px;
+    height: 25px;
+	background: url("../../../image/games/btn_oldgame_link.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.tb_innnerright_flash_button a:hover{
+	background-position: 0 -25px;
+}
+
+#tb_innnerright_tablet{
+	width: 120px;
+	height: 25px;
+	margin: 0 auto;
+}
+.tb_innnerright_tablet_button a{ 
+	width: 120px;
+    height: 25px;
+	background: url("../../../image/games/btn_tablet_link.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+.tb_innnerright_tablet_button a:hover{
+	background-position: 0 -25px;
+}
+
+#tb_innnerright_html5{
+	width: 120px;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	display: none;
+}
+
+.tb_innnerright_html5_button a{ 
+	width: 120px;
+    height: 25px;
+	background: url("../../../image/games/btn_html5_link.png") no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+.tb_innnerright_html5_button a:hover{
+	background-position: 0 -25px;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用ゲーム横のアドセンスの指定==============================================================================================　-- */
+/*-------------------------------------------------------------------------------*/
+#contents_area_right_for_game{
+	width: 300px;/*160px*/
+	height: 600px;/*600px*/
+	margin-left: 20px;
+	float: left;
+    clear: right;    
+	/*top: 0px;
+    left: 950px;
+    position: absolute;*/
+	/*background: url(image/cm/bg_cm_loading_rectangle_h.png) no-repeat;*/
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用　ゲームコンテンツ下SNSボタンエリアの指定　-- */
+/*-------------------------------------------------------------------------------*/
+#snsbutton_contents_area{
+	width: 800px;
+	height: 35px;
+	background: #e8e8e8;
+	position: relative;
+    float: left;
+    clear: right;
+	margin-bottom: 5px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用　ゲームコンテンツ下SNSボタンの指定　-- */
+/*-------------------------------------------------------------------------------*/
+
+#twitterbutton_games{
+	top: 8px;
+    left: 45px;/*115px*/
+    position: absolute;
+}
+
+#twitterbutton_games a{
+	color: #e8e8e8;
+}
+
+#likebutton_games{
+    top: 8px;
+	left: 220px;/*190*//*285*/
+	position: absolute;
+}
+
+#likebutton_games a{
+	color: #e8e8e8;
+}
+
+#plus1button_games{
+	top: 5px;
+	left: 380px;/*525*/
+	position: absolute;
+	color: #e8e8e8;
+}
+
+#hatebubutton_games{
+	top: 7px;
+	left: 448px;/*478*//*665*/
+	position: absolute;
+	/*width: 130px;*/
+	/*height: 20px;*/
+}
+
+#hatebubutton_games a{
+	color: #e8e8e8;
+}
+
+#linebutton_games{
+	top: 8px;
+	right: 56px;/*55*//*125*/
+	position: absolute
+}
+
+#linebutton_games a{
+	color: #e8e8e8;
+}
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* ゲームページ内下層コンテンツエリアの指定=============================================================================================================　-- */
+/*-------------------------------------------------------------------------------*/
+#under_contents_area{
+	width: 800px;/*100%;*//*1110px*/
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 94px;/*ゲームコンテンツ下辺から広告上辺まで150px調整の数値*/
+}
+
+#undercontents_inner_left_area{
+	width: 800px;
+	height: auto;
+  margin-bottom: 100px;
+	position: relative;
+	float: left;
+	clear: right;
+}
+
+#undercontents_right_area{
+	top: -120px;
+    margin-right: 0px;
+    width: auto;/*300px*/
+    height: auto;
+    float: left;
+    clear: right;
+    position: relative;
+	margin-left: 10px;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/*個別ゲームページ用　中段　横長アドセンスの指定　-- */
+/*-------------------------------------------------------------------------------*/
+
+div.underAd_area_wrap_for_gamepage{
+	width: 800px;
+    height: 90px;
+    position: relative;
+    margin-bottom: 30px;
+    float: left;
+    clear: right;
+}
+
+div.underAd_area_wrap_for_gamepage div{
+	width: 728px;
+	height: 90px;
+	margin: 0 auto;
+	/*background: url(image/cm/bg_cm_loading_rectangle_w.png) no-repeat;*/
+}
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用　ゲーム紹介の指定　-- */
+/*-------------------------------------------------------------------------------*/
+
+#gamepage_gameinfo{
+	width: 760px;
+	height: 120px;/*auto*/
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+	-o-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+	-ms-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    position: relative;
+	border: 2px solid #f09c1b;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+p.gamepage_gameinfo{
+	font-size: 1.0em;
+	line-height: 1.6;
+	color: #3E3E3E;
+}
+
+p.gamepage_gameinfo a{
+	font-size: 1.0em;
+	font-weight: bold;
+	text-decoration: none;
+	color:#4A79F9;
+}
+
+p.gamepage_gameinfo a:link { color: #4A79F9; }
+p.gamepage_gameinfo a:visited { color: #4A79F9; }
+p.gamepage_gameinfo a:hover { color: #4A79F9; }
+p.gamepage_gameinfo a:active { color: #4A79F9; }
+
+
+#gamepage_gameinfo_catch{
+	width: 95px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* 個別ゲームページ用「このゲームを遊んだ方は」の指定============================================================================================================　-- */
+/*-------------------------------------------------------------------------------*/
+
+#moregamermd_wrap_for_gamepage{
+	margin-top: 20px;
+	width: 800px;
+    height: auto;
+    background: #f3f3f3;
+    box-shadow: 1px 2.55px 4.55px 4.55px rgba(131, 131, 131, 0.45);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+	-o-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+	-ms-border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    background-image: url(../../../image/index/infocontents/bg_index_info.jpg);
+	position: relative;
+}
+
+#moregamermd_title_for_gamepage{
+	width: 780px;
+	height: 45px;
+	margin: 0 auto;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#moregamermd_pickup_area_for_gamepage{
+	width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*個別ゲームページ用　下部右側広告の指定*/
+/*-------------------------------------------------------------------------------*/
+
+#gamepage_undercontents_area_rightupper_ad{
+	width: 300px;
+	height: 250px;
+	margin-right: 0px;
+	position: relative;
+	margin-bottom: 61px;/*30px*/
+}
+
+#gamepage_undercontents_area_rightlower_ad{
+	width: 300px;
+	height: 600px;
+	margin-right: 0px;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+/*==============　個別ゲーム画面レイアウト　ここまで=======================================================================================*/

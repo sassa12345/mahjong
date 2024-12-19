@@ -1,0 +1,248 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jquery\3.2.0\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\jquery-ui.min.js
+Content Type: text/javascript
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_glass_50_3baae3_1x400.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_glass_50_3baae3_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-icons_2694e8_256x240.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-icons_2694e8_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-icons_2e83ff_256x240.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-icons_2e83ff_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-icons_3d80b3_256x240.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-icons_3d80b3_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-icons_72a7cf_256x240.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-icons_72a7cf_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/images/ui-icons_ffffff_256x240.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\images\ui-icons_ffffff_256x240.png
+Content Type: image/png
+
+Uri: https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/cupertino/jquery-ui.css
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\jqueryui\1.12.0\themes\cupertino\jquery-ui.css
+Content Type: text/css
+
+Uri: https://b.st-hatena.com/images/entry-button/button-only@2x.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\images\entry-button\button-only@2x.png
+Content Type: image/png
+
+Uri: https://b.st-hatena.com/js/bookmark_button.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\js\bookmark_button.js
+Content Type: application/x-javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/linq.js/2.2.0.2/linq.min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\linq.js\2.2.0.2\linq.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/phaser-ce/2.10.0/phaser.min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\ajax\libs\phaser-ce\2.10.0\phaser.min.js
+Content Type: application/javascript
+
+Uri: https://fundingchoicesmessages.google.com/i/pub-5577355858924524?ers=1
+File Name: C:\Downloaded Web Sites\playingcards.jp\i\pub-5577355858924524
+Content Type: application/javascript
+
+Uri: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\pagead\js\f.txt
+Content Type: text/javascript
+
+Uri: https://playingcards.jp/common/common.css?20191128
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\common.css
+Content Type: text/css
+
+Uri: https://playingcards.jp/common/css/web/game_page.css
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\css\web\game_page.css
+Content Type: text/css
+
+Uri: https://playingcards.jp/common/image/reverse_arrow.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\image\reverse_arrow.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/common/js/common.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\js\common.js
+Content Type: application/javascript
+
+Uri: https://playingcards.jp/common/js/settings.js?ver=3
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\js\settings.js
+Content Type: application/javascript
+
+Uri: https://playingcards.jp/common/layout.css?20191128
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\layout.css
+Content Type: text/css
+
+Uri: https://playingcards.jp/common/script/colorbox/colorbox.min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\script\colorbox\colorbox.min.js
+Content Type: application/javascript
+
+Uri: https://playingcards.jp/common/script/colorbox/design5/colorbox.css
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\script\colorbox\design5\colorbox.css
+Content Type: text/css
+
+Uri: https://playingcards.jp/common/script/colorbox/jquery.colorbox-ja.min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\script\colorbox\jquery.colorbox-ja.min.js
+Content Type: application/javascript
+
+Uri: https://playingcards.jp/common/script/colorbox/jquery.colorbox-min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\common\script\colorbox\jquery.colorbox-min.js
+Content Type: application/javascript
+
+Uri: https://playingcards.jp/favicon.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\favicon.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/cap_gamedata.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\cap_gamedata.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/cap_gameinfo.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\cap_gameinfo.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_clonedike_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_clonedike_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_daifugou_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_daifugou_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_freecell_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_freecell_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_koikoi_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_koikoi_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_mahjong_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_mahjong_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_nanpre_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_nanpre_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_pyramid_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_pyramid_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/game_pict/pict_spider_new_180.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\game_pict\pict_spider_new_180.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/online/online_badge_mini.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\online\online_badge_mini.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_clonedike.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_clonedike.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_daifugou.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_daifugou.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_freecell.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_freecell.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_koikoi.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_koikoi.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_mahjong.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_mahjong.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_nanpre.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_nanpre.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_pyramid.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_pyramid.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/stsm_spider.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\stsm_spider.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/sts_mahjong.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\sts_mahjong.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/title_logo_new_minimum.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\title_logo_new_minimum.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/title_mahjongicon.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\title_mahjongicon.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/image/games/ttl_game_pickup_780.png
+File Name: C:\Downloaded Web Sites\playingcards.jp\image\games\ttl_game_pickup_780.png
+Content Type: image/png
+
+Uri: https://playingcards.jp/others/mahjong/
+File Name: C:\Downloaded Web Sites\playingcards.jp\others\mahjong\index.htm
+Content Type: text/html
+
+Uri: https://playingcards.jp/others/mahjong/desktop.css
+File Name: C:\Downloaded Web Sites\playingcards.jp\others\mahjong\desktop.css
+Content Type: text/css
+
+Uri: https://s3-ap-northeast-1.amazonaws.com/playingcards-jp/game/mahjong/1.3.1/game.js?ver=1
+File Name: C:\Downloaded Web Sites\playingcards.jp\playingcards-jp\game\mahjong\1.3.1\game.js
+Content Type: application/javascript
+
+Uri: https://s3-ap-northeast-1.amazonaws.com/playingcards-jp/js/Photon-Javascript_SDK_min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\playingcards-jp\js\Photon-Javascript_SDK_min.js
+Content Type: application/javascript
+
+Uri: https://s3-ap-northeast-1.amazonaws.com/playingcards-jp/js/PlayFabClientApi.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\playingcards-jp\js\PlayFabClientApi.js
+Content Type: application/javascript
+
+Uri: https://s3-ap-northeast-1.amazonaws.com/playingcards-jp/masunakalib/4.2.1/masunaka_min.js
+File Name: C:\Downloaded Web Sites\playingcards.jp\playingcards-jp\masunakalib\4.2.1\masunaka_min.js
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-B9WKS6CS4D
+File Name: C:\Downloaded Web Sites\playingcards.jp\gtag\js
+Content Type: application/javascript
+

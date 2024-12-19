@@ -1,0 +1,47 @@
+﻿
+/* 設定ダイアログ */
+div#radio_se, div#slider_volume, div#slider_gameSpeed, div#radio_jingle {
+    margin-bottom: 30px;
+}
+
+#slider_gameSpeed {
+    width: 150px;
+}
+
+.settings_left {
+    width: 200px;
+    float: left;
+}
+
+.settings_middle {
+    width: 350px;
+    float: left;
+}
+
+.settings_right {
+    width: 200px;
+    float: right;
+}
+
+/* 成績ダイアログ */
+.record_table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    .record_table td:nth-child(2n+1) {
+        width: 100px;
+        padding: 3px;
+        text-align: right;
+    }
+
+    .record_table td:nth-child(2n+0) {
+        width: 120px;
+        padding: 3px;
+        text-align: right;
+    }
+
+/* 麻雀階級 */
+#rankmatch_class, #rankmatch_rating {
+    margin-left: 10px;
+}

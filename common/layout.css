@@ -1,0 +1,672 @@
+@charset "utf-8";
+
+/* import指定　ここから=================================================== */ 
+
+/* figucaptionの指定 */ 
+@import url("/common/css/web/figucaption.css");
+
+/*====================================================================== */ 
+
+
+span.caption{
+	display: none;
+}
+
+span.txtcolor_rd{
+	display: inline;
+	color: #FF0004;
+}
+
+span.txtcolor_bl{
+	display: inline;
+	color: #0200FF;
+}
+
+span.txtcolor_rd_b{
+	display: inline;
+	color: #FF0004;
+	font-weight: bold;
+}
+
+span.txtcolor_or{
+	display: inline;
+	color: #FB8C00;
+}
+
+span.txtcolor_or_b{
+	display: inline;
+	font-weight: bold;
+	color: #FB8C00;
+	line-height: 1.4;
+}
+
+span.txtcolor_cyan{
+	display: inline;
+	color: #0066ff;
+}
+
+span.freecell_or{
+	display: inline;
+	font-style: oblique; 
+	color: #FB8C00;
+}
+
+span.txt_right{
+	display: block;
+	text-align: right;
+}
+
+/*span.yellow_triangle{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	color:#FFCC33;
+}*/
+
+span.white_triangle{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 15px;
+	color:#FFFFFF;
+}
+
+span.store_triangle{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-right: 15px;
+	color:#a8254c;
+}
+
+
+
+
+.bold{
+	display: inline;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.u{
+	display: inline;
+	border-bottom: solid 2px #FF9933;
+	line-height: 1.4 !important;
+}
+
+.marker_bl {
+	display: inline;
+	background: -webkit-linear-gradient(transparent 50%, #a8eaff 50%);
+	background: -o-linear-gradient(transparent 50%, #a8eaff 50%);
+	background: linear-gradient(transparent 50%, #a8eaff 50%);
+  }
+
+.marker_bl2 {
+	display: inline;
+	line-height: 1.3;
+	background: -webkit-linear-gradient(transparent 85%, #a8eaff 85%);
+	background: -o-linear-gradient(transparent 85%, #a8eaff 85%);
+	background: linear-gradient(transparent 85%, #a8eaff 85%);
+  }
+
+.marker_or {
+	display: inline;
+	background: -webkit-linear-gradient(transparent 50%, #FFCC66 50%);
+	background: -o-linear-gradient(transparent 50%, #FFCC66 50%);
+	background: linear-gradient(transparent 50%, #FFCC66 50%);
+  }
+
+.marker_or2 {
+	display: inline;
+	line-height: 1.3;
+	background: -webkit-linear-gradient(transparent 85%, #FFCC66 85%);
+	background: -o-linear-gradient(transparent 85%, #FFCC66 85%);
+	background: linear-gradient(transparent 85%, #FFCC66 85%);
+  }
+
+.emsp{
+	display: inline;
+	margin-right: 1em;
+}
+
+.emsp2{
+	display: inline;
+	margin-right: 2em;
+}
+
+.emsp3{
+	display: inline;
+	margin-right: 3em;
+}
+
+.marginleft100{
+	margin-left: 100px;
+}
+
+.new_icon{
+	content: '';
+    width: 34px;
+    height: 11px;
+    margin-left: 105px;
+    margin-top: -8px;
+    background: url(../image/header/new025_01.gif) no-repeat;
+    display: block;
+}
+
+
+
+
+hr.thumnail_contents_separate_top {
+	position: relative;
+	top: 10px;
+    border: 0;
+    height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	margin: 0 auto;
+	width: 100%;
+	z-index: 100;
+	margin-bottom: 60px;
+}
+
+hr.thumnail_contents_separate_under {
+	position: relative;
+	top: 10px;
+    border: 0;
+    height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	margin: 0 auto;
+	width: 100%;
+	z-index: 100;
+	margin-bottom: 35px;
+}
+
+hr.rule_contents_separate {
+	position: relative;
+	top: 30px;
+    border: 0;
+    height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	margin: 0 auto;
+	width: 100%;
+	z-index: 100;
+	margin-bottom: 65px;
+}
+
+hr.hrstyle10 {
+	border-top: 1px solid #53cf7d;
+	margin-bottom: 15px;
+	width: 98%;
+}
+
+hr.dotted2_90_t30b15_lightgr {
+	border-top: 2px dotted #53cf7d;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+hr.dotted2_90_t30b15_lightgr_news {
+	border-top: 2px dotted #53cf7d;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+hr.hrstyle_link {
+	border-top: 1px dashed #f09c1b;
+	margin-bottom: 15px;
+	width: 98%;
+}
+
+hr.hrstyle_formpage {
+	border-top: 1px solid #000;
+	margin-bottom: 15px;
+	width: 98%;
+}
+
+hr.hrstyle_tabnewstitle {
+	border-top: 1px  dashed #000000;
+	margin-top: 3px;
+	margin-bottom: 12px;
+	margin-left:88px;
+	width: 485px;
+}
+
+hr.dotted2_90_tb30_gry {
+	border-top: 2px dotted #8c8b8b;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 90%;
+}
+
+hr.dotted2_90_tb15_gry {
+	border-top: 2px dotted #8c8b8b;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+hr.dotted2_90_t15b15_lightgr {
+	border-top: 2px dotted #53cf7d;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 90%;
+}
+
+hr.dotted2_90_b15_lightgr {
+	border-top: 2px dotted #53cf7d;
+	margin-bottom: 15px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*新着情報内の指定-----------------------------------------------------------------*/
+p.tabnews_first{
+	margin-left: 12px;
+	line-height: 1.5;	
+}
+
+p.sitenews_article_intro{
+	font-size: 1.0em;
+	line-height: 1.4;
+	margin-top: 1.4em;
+	margin-bottom: 1.2em;
+}
+
+p.sitenews_article{
+	text-indent: 1em;
+	line-height: 2;
+	margin-bottom: 25px
+}
+
+p.sitenews_article_last{
+	font-size: 1.0em;
+	line-height: 1.4;
+	margin-bottom: 1.2em;
+	margin-top: 1.2em;
+}
+
+p.margin_t_b10{
+	margin: 10px 0 10px 0;
+}
+
+p.margin_t_b15{
+	margin: 15px 0 15px 0;
+}
+
+p.margin_t_b30{
+	margin: 30px 0 30px 0;
+}
+
+p.kyoutyou{
+	clear: both;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 12px;
+}
+
+p.kyoutyou_bl{
+	clear: both;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000DFF;
+}
+
+p.kyoutyou_rd{
+	clear: both;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #DF0003;
+}
+
+p.kyoutyou_or{
+	clear: both;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #FB8C00;
+}
+
+p.rule_cap{
+	padding-left: 20px;
+    line-height: 1.6;
+	text-indent: 1.0em;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+.right{float: right; clear: right;}
+.left{float: left; clear: left;}
+.center{display: block; text-align: center; margin-left: auto; margin-right: auto;}
+.u{text-decoration: underline;}
+
+/*----------------------------------------------------------------------------*/
+
+
+table.kihonstyle{
+	width: 98%;
+	border-collapse: collapse;
+	border: solid 1px #858057;
+	border-spacing: 0;
+	line-height: 1.5;
+	margin: 0 auto;
+	background-color: #FFF;
+	font-size: 1.0em;
+}
+
+table.kihonstyle tr,table.kihonstyle_faq_left tr,table.kihonstyle_faq_right tr{
+	height: 20px;
+}
+
+table.kihonstyle th,table.kihonstyle_faq_left th,table.kihonstyle_faq_right th{
+	width: auto;
+	height: auto;
+	padding: 10px;
+    font-weight: bold;
+	text-align: center;
+    border: solid 1px #858057;
+    background: #eee;
+	white-space: nowrap;
+}
+table.kihonstyle td,table.kihonstyle_faq_left td,table.kihonstyle_faq_right td {
+    width: auto;
+	height: auto;
+    padding: 10px;
+    border-right: 1px solid #858057;
+    border-bottom: 1px solid #858057;
+	text-align: left;
+}
+
+table.kihonstyle ul{
+	margin-left: 0px;
+	list-style: none;
+	float: left;
+	clear: right;
+}
+
+table.kihonstyle li{
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+table.kihonstyle ul.table_inner_text_number{
+	margin-left: 0px;
+	list-style: none;
+	float: left;
+	clear: right;
+}
+
+table.kihonstyle li.table_inner_text_number{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+table.kihonstyle span.text_number{
+	font-weight: bold;
+	margin-right: 10px;
+	float: left;
+	clear: right;
+}
+
+div.table_inner_text{
+	margin-left: 23px;
+	line-height: 1.6;
+	text-indent: 1.0em;
+}
+
+div.rule_contents_td_title{
+	border-left: solid 8px #ffcc33;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+div.table_inner_text_for_rule_content{
+	line-height: 1.6;
+	text-indent: 1.0em;
+	margin-bottom: 15px;
+}
+
+div.table_inner_text_for_rule_content_inner{
+	margin-left: 40px;
+	line-height: 1.7;
+	text-indent: 1.0em;
+	margin-bottom: 15px;
+}
+
+div.table_inner_text_for_rule_content_inner_deco{
+	margin-left: 20px;
+	font-weight: bold;
+	font-style: oblique;
+	color: #FF6700;
+	text-indent: 0em;
+}
+
+table.kihonstyle td.kaisetu {
+	width: auto;
+	height: auto;
+    padding: 10px;
+    vertical-align: middle;
+	text-align: center;
+    border-right: 1px solid #858057;
+    border-bottom: 6px solid #858057;
+	background-color: #908E8E;
+	color: #FFFFFF;
+}
+
+table.kihonstyle td.bottomline {
+	border-bottom: 6px solid #858057;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+
+table.gaiyoustyle_rc ul {
+    list-style: none;
+    margin-left: 20px;
+	line-height: 1.6;
+}
+table.gaiyoustyle_rc li {
+    margin-bottom: 15px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+noscript{
+	width: 100%;
+	height: 60px;
+	padding-top: 20px;
+	display: table-cell;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #0000ff;
+	color: #ff0000;
+	vertical-align: middle;
+	padding-bottom: 20px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+#recomendgames_area_wrap_store{
+	width: 1110px;
+	height: 125px;
+	margin: 0 auto;
+	background: url( ../image/store/bg_game_recomend_store.png);
+	overflow: hidden;
+	zoom: 1;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+#underAd_area_{
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#uad_left{
+	width: 728px;
+	height: 90px;
+	margin-left: 190px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+table.kihonstyle_faq_left{
+	width: 490px;
+	border-collapse: collapse;
+	border: solid 1px #858057;
+	border-spacing: 0;
+	line-height: 1.5;
+	background-color: #FFF;
+	font-size: 1.0em;
+	float: left;
+    clear: right;
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+table.kihonstyle_faq_right{
+	width: 490px;
+	border-collapse: collapse;
+	border: solid 1px #858057;
+	border-spacing: 0;
+	line-height: 1.5;
+	background-color: #FFF;
+	font-size: 1.0em;
+	float: right;
+    clear: right;
+    margin-right: 20px;
+}
+
+
+/* ゲーム一覧 -------------------------------------------------------------------------------------------------------- */
+
+/*----------ゲームサムネイルコンテンツindexページ用の設定--------- */
+
+div.game_thumnail_box_child {
+	position: relative;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 202px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+    background-color: #f3f3f3;
+    display: inline-block;
+    /*box-shadow: 6px 6px 15px 2px #2d2d27;*/
+	box-shadow: 6px 6px 15px 2px #bbaa8a;
+	
+}
+
+div.game_thumnail_box_child_title{
+	top: 10px;
+	margin-bottom: 10px;
+	color: #0066ff;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+div.game_thumnail_box_child_stgimg{
+	top: 5px;
+    width: 173px;
+    height: 39px;
+    position: relative;
+	margin: 0 auto;
+}
+
+div.game_thumnail_box_child:nth-child(5n) {
+	position: relative;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 202px;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+    background-color: #f3f3f3;
+    display: inline-block;
+    /*box-shadow: 6px 6px 15px 2px #2d2d27;*/
+	box-shadow: 6px 6px 15px 2px #bbaa8a;
+	
+}
+
+div.game_thumnail_box_child a{
+	text-decoration: none;
+}
+
+/*-------ゲームサムネイルコンテンツ用　オンラインバッジの指定----------------------*/
+div.online_badge_big{
+	left: 385px;
+    top: -10px;
+	width: auto;
+	height: auto;
+	z-index: 9999;
+	position: absolute;
+}
+
+div.online_badge_mini{
+	width: 45px !important;
+    height: 105px !important;
+    z-index: 9999;
+    position: absolute;
+    left: 120px;
+    top: -0.2em;
+}
+
+
+div.online_badge_mini_thumnail_list {
+    width: 45px !important;
+    height: 105px !important;
+    z-index: 9999;
+    position: absolute;
+    left: 157px;
+	top: 0px;
+}
+
+
+
+
+#online_badge_mini_for_rmdg{
+	width: 45px !important;
+    height: 105px !important;
+    z-index: 9999;
+    position: absolute;
+    left: 7.6em;/*8.3em*/
+    top: -0.2em;
+}
+/*------------------------------------------------------------------------------------*/
+
+/*サムネイルリストページ用　SNSボタン表示領域の指定----------------------------------------*/
+#sns_stage_area{
+	/*top: 30px;*/
+	width: 100%;
+    height: 33px;/*36px*/
+	margin:  0 auto;
+	background: #e8e8e8;
+	position: relative;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,872 @@
+@charset "utf-8";
+
+/* CSSのグローバルリセット */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, 
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* CSSのグローバルリセット ここまで*/
+
+/* bodyおよび共通プロパティ */
+body{
+	background-color: #ffffff;
+	font-family: "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	/*font-size:1.5rem;*//*1em=16px*/
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+	/*min-width:1370px;*//*背景切れ対策。min-widthをコンテンツ幅で指定*/
+	width: auto;
+}
+
+body.normal_size{
+	min-width:1370px;
+}
+body.game_size{
+	min-width:1110px;
+}
+
+#wrapper {
+	width: auto;/*width: 1370px;*/
+	height: auto;/*100%*/
+	overflow: hidden;
+}
+
+/*.wrapper_games {
+	width: 100%;
+    height: 100%;
+    background: #e0e0db;
+}*/
+
+#wrap_gray_bg{
+	width: 100%;
+    height: 100%;
+    background: #e0e0db;
+}
+
+#contents_wrap{
+	width: 1110px;/*1110px*/
+    height: 100%;
+    margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+#contents_area{
+	width: 100%;
+    height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*----------ページ上部テキストの設定-----------------------------------------------*/
+
+/* TOPテキストレイアウト */
+
+#head-text_area{
+	width: auto;
+    height: auto;
+	background-color: #e0e0db;
+	padding: 0px 10px;
+}
+
+#head-text_area div{
+	width: 1370px;/*1370px*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1.head-text{
+	margin-left: 5px;
+    font-size: 0.8em;
+    color: #ADADAD;
+}
+
+p.head-text{
+	width: 100%;/*1370px*/
+    height: auto;
+	padding-left: 5px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: #ADADAD;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* ヘッダー部の各要素の指定　ここから　-- */
+/*-------------------------------------------------------------------------------*/
+
+/* ヘッダー領域とヘッダー本体、ロゴの指定*/
+#header_wrap{	
+	width: auto;
+	height: auto;
+	background-image: -webkit-linear-gradient(90deg, #67503a 0%, #97816a 100%);
+	background-image: -moz-linear-gradient(90deg, #67503a 0%, #97816a 100%);
+	background-image: -o-linear-gradient(90deg, #67503a 0%, #97816a 100%);
+	background-image: linear-gradient(0deg, #67503a 0%, #97816a 100%);
+	position: relative;
+}
+
+/*headerの中身の表示領域とセンタリングの指定*/
+#header{
+	margin: 0 auto;
+	width: 1370px;/*1370px*/
+	height: 110px;/*80px*/
+	position: relative;
+	/*background: black;*/
+}
+
+#logo3{
+	width: 300px;
+    height: 74px;
+    float: left;
+    clear: right;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+#title_caption{
+	top: 80px;/*62*/
+    left: 90px;/*110*/
+    font-size: 1.0em;
+    color: #fff;    
+    position: absolute;
+	text-shadow: 2px 4px 3px #371000;
+}
+
+
+/* テキストリンク======================================== */
+#textlink3{
+	left: 370px;/*418*//*690*/
+    padding-top: 10px;/*5*/
+    font-size: 1.2em;/*0.75*/
+    color: #ffffff;
+    position: absolute;
+}
+
+#textlink3 ul{
+	 list-style: none;
+}
+#textlink3 li{
+	 margin-bottom: 0.55em;
+}
+
+#textlink3 a:link { color: #ffffff; }
+#textlink3 a:visited { color: #ffffff; }
+#textlink3 a:hover { color: #525BF7; }
+#textlink3 a:active { color: #ffffff; }
+#textlink3 a { text-decoration: none; }
+/*-----------------------------------------------------*/
+
+
+/* ご意見ご要望ボタン ======================================*/
+
+/*表示領域を指定*/
+#hdr_button_body{
+	top: 38px;/*38*//*55*/
+    left: 375px;/*422*//*430*/
+	width: 220px;/*130*//*230*/
+    height: auto;
+	position: absolute;    
+}
+
+.hdr_silver_btn_left{
+	width: 100px;/*128*/
+    height: 25px;/*20*/
+    /*padding-top: 5px;*/
+    /*margin-bottom: 10px;*/
+    font-size: 0.85em;/*0.95*/
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    background-image: -webkit-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -moz-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -o-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: linear-gradient(0deg, #f4f6f8 0%, #8f99a2 100%);
+    border: solid 1px #bebebf;
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+	text-shadow: 1px 1px 1px #c4c2c3;
+	font-feature-settings : "palt" 4;
+	float: left;
+	clear: right;
+}
+
+.hdr_silver_btn_left:hover{
+	background-image: linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-image: -webkit-linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-image: -moz-linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-image: -o-linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-position: 0;
+}
+
+.hdr_silver_btn_right{
+	width: 100px;
+    height: 25px;
+    /*padding-top: 5px;*/
+    /*margin-bottom: 10px;*/
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    background-image: -webkit-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -moz-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -o-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: linear-gradient(0deg, #f4f6f8 0%, #8f99a2 100%);
+    border: solid 1px #bebebf;
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+	text-shadow: 1px 1px 1px #c4c2c3;
+	font-feature-settings : "palt" 4;
+	float: right;
+	clear: right;
+}
+
+.hdr_silver_btn_right:hover{
+	background-image: linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-image: -webkit-linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-image: -moz-linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-image: -o-linear-gradient(-90deg, #b0c4d7 0%, #899eb4 100%);
+	background-position: 0;
+}
+
+
+
+/*#request_btn{
+	width: 100px;
+    height: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    background-image: -webkit-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -moz-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -o-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: linear-gradient(0deg, #f4f6f8 0%, #8f99a2 100%);
+    border: solid 1px #bebebf;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    float: left;
+    clear: right;
+    text-shadow: 1px 1px 1px #c4c2c3;
+}
+
+#fuguai_btn{
+	width: 100px;
+    height: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    background-image: -webkit-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -moz-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: -o-linear-gradient(90deg, #f4f6f8 0%, #8f99a2 100%);
+    background-image: linear-gradient(0deg, #f4f6f8 0%, #8f99a2 100%);
+    border: solid 1px #bebebf;
+	border-radius: 5px;	
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    float: right;
+    clear: right;
+    text-shadow: 1px 1px 1px #c4c2c3;
+}*/
+
+#hdr_button_body a{ text-decoration: none; font-weight: bold !important;}
+
+#hdr_button_body a:link { color: #000; text-shadow: 1px 1px 1px #c4c2c3; }
+#hdr_button_body a:visited { color: #000; text-shadow: 1px 1px 1px #c4c2c3; }
+#hdr_button_body a:hover { color: #000; text-shadow: 1px 1px 1px #c4c2c3; }
+#hdr_button_body a:active { color: #000; text-shadow: 1px 1px 1px #c4c2c3; }
+
+#hdr_button_body a p{
+	margin-top: 7px;
+}
+
+/*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* カスタム検索ウィンドウ */
+#site_search2 {
+    position: absolute;
+    width: 290px;
+    top: 75px;
+    left: 378px;
+}
+/*-----------------------------------------------------*/
+/* カスタム検索ウィンドウのカスタマイズ */
+#gsc{
+    width: 100%;
+    position: relative;
+}
+ 
+#gsc td {
+    border: none;    
+}
+ 
+#gsc .gsc-control-searchbox-only, 
+#gsc .gsc-control-searchbox-only-ja,
+#gsc .gsc-search-box{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+#gsc .gsc-search-box{
+	width: 2px !important;
+}
+
+/* テキスト入力フォームとボタンの位置 */
+#gsc table.gsc-search-box td,
+#gsc table.gsc-search-box input {
+    vertical-align: top !important;
+	width: 155px !important;/*100%*/
+	height: 18px !important;
+}
+
+#gsc .gsib_a {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+	padding: 0px !important;
+	cursor: none !important;
+}
+
+#gsc .gsib_b {
+	display: none !important;
+}
+
+/* テキスト入力フォーム */
+#gsc input[type="text"]{
+    border: 2px solid #dddddd !important;
+    /*height: 14px !important;*/
+	/*width: 90% !important;*/
+}
+
+#gsc input[placeholder="カスタム検索"]{
+			/*text-indent: 80px !important;*//*150px*/
+	opacity: 0.65 !important;
+		}
+
+/*Edge用「カスタム検索」の文字位置調整*/
+@supports (-ms-ime-align:auto) {
+		#gsc table.gsc-search-box td,
+		#gsc table.gsc-search-box input {
+			vertical-align: top !important;
+			width: 155px !important;/*100%*/
+			height: 20px !important;
+		}
+	
+		#gsc input[placeholder="カスタム検索"]{
+			/*text-indent: 75px !important;*/
+			font-size: 0.95em !important;
+		}
+}
+
+/*Firefox用「カスタム検索」の文字位置調整*/
+@-moz-document url-prefix(){
+  #gsc input[placeholder="カスタム検索"]{
+			/*text-indent: 133px !important;*/
+		}
+}
+ 
+#gsc input[type="text"]:focus {
+    border: 2px solid #b2e0eb !important;
+    outline: 0;  /*safariの自動フォーカスを切る */
+}
+ 
+/* テキスト入力フォームの影を消す */
+#gsc #gsc-iw-id1{
+    border:none !important;
+}
+
+/* テキスト入力フォームの背景画像位置調整 */
+#gsc #gs_tti0 input{
+    background-position:5px 5px !important;
+}
+
+#gsc .gsc-search-button {
+    margin-left: 0px !important;
+}
+
+/* ボタンの色 */
+#gsc input.gsc-search-button {
+	background: #d2d2d2 !important;
+	background: -ms-linear-gradient(top,  #008ee1 0%,#008ee1 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008ee1', endColorstr='#008ee1',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #d2d2d2 !important;
+	margin-left: 10px !important;
+	padding:0px !important;
+}
+
+#gsc.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+    border: none !important;
+    font-size: 0px !important;
+    padding: 0px !important;/*6px 27px; */
+    width: 45px !important;
+    height: 22px !important;
+    vertical-align: baseline;
+    /* border: 1px solid #666666; */
+    border-radius: 2px!important;
+    -moz-border-radius: 2px!important;
+    -webkit-border-radius: 2px!important;
+    border-color: none !important;
+    background: #4d90fe!important;
+    background: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed))!important;
+    background: -webkit-linear-gradient(top,#4d90fe,#4787ed)!important;
+    background: -moz-linear-gradient(top,#4d90fe,#4787ed)!important;
+    background: -ms-linear-gradient(top,#4d90fe,#4787ed)!important;
+    background: -o-linear-gradient(top,#4d90fe,#4787ed)!important;
+    background: linear-gradient(top,#4d90fe,#4787ed)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4d90fe',EndColorStr='#4787ed')!important;
+}
+
+/* ボタンの位置調整と角丸消し */
+#gsc .gsc-search-button{
+    /*margin:0 0 0 -5px !important;*/
+    border-radius:0px;
+}
+
+td.gsc-clear-button{
+	width:0px !important;
+}
+
+/* 「×」ボタンの位置調整 */
+#gsc .gsc-clear-button{
+    /*margin:0 0 0 -15px !important;*/
+	visibility: hidden !important;
+}
+
+/* 入力時に出る×ボタン -- Firefox位置調整 -- */
+#gsc .gsc-clear-button span{
+        box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        padding:2px 0 0 0;
+}
+
+/*-----------------------------------------------------*/
+
+/* ヘッダー内広告 */
+#header_ad2{
+    width: 728px;
+    height: 90px;
+    /*position: absolute;*/
+    /*right: 20px;*/
+    /*top: 10px;*/
+	float: right;
+	clear: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	/*background: url(image/cm/bg_cm_loading_rectangle_mini_w.png) no-repeat;*/
+}
+
+/*---------------------------------------------------*/
+
+/* ヘッダー下のラインレイアウト */
+.line_top{
+	width: 100%;
+	height: 3px;
+	background-color: #71705e;
+}
+
+#line_top_mj_modal{
+	width: 100%;
+	height: 3px;
+	background: #04401e;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+/* フッター部の各要素の指定　ここから　-- */
+/*-------------------------------------------------------------------------------*/
+
+/*-------フッター部全体設定----------------------*/
+#footer_sitemap_wrap{
+	width: auto;
+    height: auto;
+    background-color: #308e3f;
+	position: relative;
+	padding: 0px 10px;
+}
+
+/*----フッターサイトマップ部の領域と背景設定---*/
+#footer_sitemap_area{
+	width: 1110px;/*1170px;*//*1370px*/
+	height: 355px;
+	margin: 0 auto;	
+	color: #FFFFFF;
+	position: relative;
+	/*padding-left: 10px;*//*230px*/
+	/*padding-right: 10px;*/
+	background: url("/common/image/bg_footer_sitemap.png") no-repeat;
+}
+
+#footer_sitemap_area table{
+	width: auto;
+	height: auto;
+	border-collapse: collapse;
+	border-style: none;
+	top: 20px;
+	margin-right: 19px;/*22px*//*45px*/
+	position: relative;
+	display: inline;
+}
+
+#footer_sitemap_area table:last-child{
+	width: auto;
+	height: auto;
+	border-collapse: collapse;
+	border-style: none;
+	top: 20px;
+	margin-right: 0px;
+	position: relative;
+	display: inline;
+	clear: both;
+}
+
+/*古いsafari用 ver5.0くらい？*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ ::i-block-chrome, #footer_sitemap_area table{
+	width: auto;
+	height: auto;
+	border-collapse: collapse;
+	border-style: none;
+	/*top: 20px;*/
+	margin-right: 19px;/*22px*//*45px*/
+	position: relative;
+	display: inline-block;
+	}
+	
+::i-block-chrome, #footer_sitemap_area table:nth-child(odd){
+	width: auto;
+	height: auto;
+	border-collapse: collapse;
+	border-style: none;
+	top: -2px;
+	margin-right: 19px;/*22px*//*45px*/
+	position: relative;
+	display: inline-block;
+	}
+	
+::i-block-chrome, #footer_sitemap_area table:last-child{
+	width: auto;
+	height: auto;
+	border-collapse: collapse;
+	border-style: none;
+	/*top: 20px;*/
+	margin-right: 19px;
+	position: relative;
+	float: right;
+	clear: right;
+	}
+}
+
+#footer_sitemap_area table td.whiteline{
+	width: 250px;
+    height: 10px;
+    vertical-align: middle
+}
+
+#footer_sitemap_area table td.whitetriangle{
+	width: auto;
+    height: fit-content;
+    top: 1px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+#footer_sitemap_area table td.sitemap_cap1{
+	width: auto;
+    height: fit-content;
+	padding-left: 10px;
+    font-size: 1.0em;
+    top: 1px;
+    position: relative;
+}
+
+#footer_sitemap_area table hr{
+	border-top: 0.0em solid #ffffff;
+}
+
+#footer_sitemap_area table ul{
+	font-size: 0.75em;
+	list-style: none;
+}
+
+#footer_sitemap_area table li{
+	margin: 10px 0px 12px 0px;
+}
+
+#footer_sitemap_area table a{
+	text-decoration: none;
+}
+
+#footer_sitemap_area table a:link { color: #fff; }
+#footer_sitemap_area table a:visited { color: #fff; }
+#footer_sitemap_area table a:hover { color: #fff;}
+#footer_sitemap_area table a:active { color: #fff;}
+
+
+
+/*-------フッター部　最下部の領域と背景設定----------------------*/
+#footer_bottom_wrap{
+	width: 100%;
+	height: 40px;
+	background-image: -webkit-linear-gradient(90deg, #67503a 0%, #97816a 100%);
+	background-image: -moz-linear-gradient(90deg, #67503a 0%, #97816a 100%);
+	background-image: -o-linear-gradient(90deg, #67503a 0%, #97816a 100%);
+	background-image: linear-gradient(0deg, #67503a 0%, #97816a 100%);
+}
+
+#footer_bottom_area{
+	width: 1110px;
+    height: auto;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9em;
+    top: 1.0em;
+    position: relative;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/* 各SNSボタン要素の指定　ここから　-- */
+/*-------------------------------------------------------------------------------*/
+
+#twitterbutton_list{
+	top: 8px;
+    left: 115px;/*115px*/
+    position: absolute;
+}
+
+#twitterbutton_list a{
+	color: #e8e8e8;
+}
+
+#likebutton_list{
+    top: 8px;
+	left: 330px;/*285*/
+	position: absolute;
+}
+
+#likebutton_list a{
+	color: #e8e8e8;
+}
+
+#plus1button_list{
+	top: 5px;
+	left: 525px;/*525*/
+	position: absolute;
+	color: #e8e8e8;
+}
+
+#hatebubutton_list{
+	top: 7px;
+	left: 625px;/*665*/
+	position: absolute;
+	/*width: 130px;*/
+	/*height: 20px;*/
+}
+
+#hatebubutton_list a{
+	color: #e8e8e8;
+}
+
+#linebutton_list{
+	top: 8px;
+	right: 125px;/*55*/
+	position: absolute
+}
+
+#linebutton_games a{
+	color: #e8e8e8;
+}
+
+/*.mixibutton_games
+{
+    float: left;
+	width: 160px;
+	margin-top: 0px;
+	display: inline;    /*for ie
+	overflow: hidden;
+	zoom: 1;
+}*/
+
+
+/*-------------------------------------------------------------------------------*/
+/* ページナビゲーション「戻る矢印」の指定　ここから　-- */
+/*-------------------------------------------------------------------------------*/
+
+/* ページ戻るボタン */
+#pagetop a{
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+	display: block;
+	opacity: 0.8;
+	z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
+/* ゲーム用CSS -------------------------------------------------------------------------------------- */
+
+/* ゲーム画面 */
+#content {
+    width: 800px;
+    height: 600px;
+	background: url(/common/image/bg_game_loading.png) no-repeat;
+}
+
+/* JQuery UIのウィジェット */
+.ui-widget, .ui-widget button {
+    font-size: 12px;
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
+
+/* ゲームダイアログ全般 */
+.dialog_game {
+    line-height: normal;
+}
+
+.dialog_game p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    line-height: normal;
+}
+
+.ui-dialog-title, .ui-selectmenu-text {
+    font-weight: bold;
+}
+
+.dialog_game table, .dialog_game td, .dialog_game th {
+    border: 1px #000000 solid;
+}
+
+.dialog_game th, .dialog_game td {
+    padding: 5px;
+}
+
+/* 設定ダイアログ */
+#dialog_account table, #dialog_account th, #dialog_account td {
+    border: none;
+}
+
+div#radio_se, div#slider_volume, div#slider_gameSpeed, #radio_jingle {
+    margin-bottom: 30px;
+}
+
+/* 成績ダイアログ */
+.record_table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* アカウントダイアログ */
+#account_login td:nth-child(2n+1) {
+    width: 100px;
+}
+
+/* リフレッシュダイアログ */
+.refresh_buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    position: center;
+}
+
+/* パスワード入力ダイアログ */
+#online_private_password_input {
+    margin-top: 10px;
+}
+
+/* 検索ダイアログ */
+#online_room_search_word {
+    margin-top: 20px;
+}
+
+/* ゲーム内新着情報関係 */
+#dialog_whatsnew h1 {
+    font-size: 1.125em;
+    margin: 10px;
+}
+
+#dialog_whatsnew ul {
+    margin-left: 20px;
+}
+
+
+/* Unityゲーム用のCSS */
+#unity_openingImage {
+    position: absolute;
+}
+
+img.unity_thumbnail {
+    opacity: 0.4;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+}
+
+#unity_startButton {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 250px;
+    width: 200px;
+    height: 100px;
+}
+
+#dialog_migration li {
+    margin-left: 20px;
+}
+
+
